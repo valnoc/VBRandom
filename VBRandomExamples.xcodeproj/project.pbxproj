@@ -19,6 +19,7 @@
 		5BF45C2C19277AC7004EEFA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF45C1419277AC7004EEFA1 /* UIKit.framework */; };
 		5BF45C3419277AC7004EEFA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BF45C3219277AC7004EEFA1 /* InfoPlist.strings */; };
 		5BF45C3619277AC7004EEFA1 /* VBRandomExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF45C3519277AC7004EEFA1 /* VBRandomExamplesTests.m */; };
+		5BF45C4219277B86004EEFA1 /* VBRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF45C4119277B86004EEFA1 /* VBRandom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		5BF45C3119277AC7004EEFA1 /* VBRandomExamplesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VBRandomExamplesTests-Info.plist"; sourceTree = "<group>"; };
 		5BF45C3319277AC7004EEFA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BF45C3519277AC7004EEFA1 /* VBRandomExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBRandomExamplesTests.m; sourceTree = "<group>"; };
+		5BF45C4019277B86004EEFA1 /* VBRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBRandom.h; sourceTree = "<group>"; };
+		5BF45C4119277B86004EEFA1 /* VBRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBRandom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		5BF45C0419277AC7004EEFA1 = {
 			isa = PBXGroup;
 			children = (
+				5BF45C3F19277B7B004EEFA1 /* VBRandom */,
 				5BF45C1619277AC7004EEFA1 /* VBRandomExamples */,
 				5BF45C2F19277AC7004EEFA1 /* VBRandomExamplesTests */,
 				5BF45C0F19277AC7004EEFA1 /* Frameworks */,
@@ -142,6 +146,15 @@
 				5BF45C3219277AC7004EEFA1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BF45C3F19277B7B004EEFA1 /* VBRandom */ = {
+			isa = PBXGroup;
+			children = (
+				5BF45C4019277B86004EEFA1 /* VBRandom.h */,
+				5BF45C4119277B86004EEFA1 /* VBRandom.m */,
+			);
+			path = VBRandom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +255,7 @@
 			files = (
 				5BF45C2119277AC7004EEFA1 /* VBAppDelegate.m in Sources */,
 				5BF45C1D19277AC7004EEFA1 /* main.m in Sources */,
+				5BF45C4219277B86004EEFA1 /* VBRandom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +454,7 @@
 				5BF45C3B19277AC7004EEFA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BF45C3C19277AC7004EEFA1 /* Build configuration list for PBXNativeTarget "VBRandomExamplesTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +463,7 @@
 				5BF45C3E19277AC7004EEFA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
