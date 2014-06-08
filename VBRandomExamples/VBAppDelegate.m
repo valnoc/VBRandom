@@ -8,14 +8,26 @@
 
 #import "VBAppDelegate.h"
 
+#import "VBRandom.h"
+
 @implementation VBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    // Override point for customization after application launch.
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
+    
+    for (NSInteger i = 1; i < 10; i++) {
+        NSLog(@"%@", @([VBRandom randomIntegerWithLowerBound:0
+                                                  upperBound:i]));
+    }
+    NSLog(@"%@", @([VBRandom randomIntegerPositive]));
+    NSLog(@"%@", @([VBRandom randomIntegerNonNegative]));
+    NSLog(@"%@", @([VBRandom randomIntegerNegative]));
+    NSLog(@"%@", @([VBRandom randomIntegerNonPositive]));
+    
     return YES;
 }
 

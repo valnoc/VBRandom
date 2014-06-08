@@ -26,4 +26,12 @@
 
 @interface VBRandom : NSObject
 
+#pragma mark - random integer
++ (NSInteger) randomIntegerWithLowerBound:(NSInteger)lowerBound
+                               upperBound:(NSInteger)upperBound;
++ (NSInteger) randomIntegerPositive;
++ (NSInteger) randomIntegerNonNegative;
++ (NSInteger) randomIntegerNegative;
++ (NSInteger) randomIntegerNonPositive;
+
 @end

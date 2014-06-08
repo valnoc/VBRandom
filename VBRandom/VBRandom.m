@@ -26,4 +26,32 @@
 
 @implementation VBRandom
 
+#pragma mark - random integer
++ (NSInteger) randomIntegerWithLowerBound:(NSInteger)lowerBound
+                               upperBound:(NSInteger)upperBound {
+
+    return arc4random() % (upperBound - lowerBound) + lowerBound;
+}
+
++ (NSInteger) randomIntegerPositive {
+    return [self randomIntegerWithLowerBound:1
+                                  upperBound:NSIntegerMax];
+}
+
++ (NSInteger) randomIntegerNonNegative {
+    return [self randomIntegerWithLowerBound:0
+                                  upperBound:NSIntegerMax];
+}
+
++ (NSInteger) randomIntegerNegative {
+    return [self randomIntegerWithLowerBound:NSIntegerMin
+                                  upperBound:0];
+}
+
++ (NSInteger) randomIntegerNonPositive {
+    return [self randomIntegerWithLowerBound:NSIntegerMin
+                                  upperBound:1];
+}
+
+
 @end
