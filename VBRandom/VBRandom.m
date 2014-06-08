@@ -35,11 +35,16 @@
 
 @implementation VBRandom
 
+#pragma mark - random unsigned integer
++ (NSUInteger) randomUInteger {
+    return arc4random();
+}
+
 #pragma mark - random integer
 + (NSInteger) randomIntegerWithLowerBound:(NSInteger)lowerBound
                                upperBound:(NSInteger)upperBound {
     if (upperBound > lowerBound) {
-        return arc4random() % (upperBound - lowerBound) + lowerBound;
+        return [self randomUInteger] % (upperBound - lowerBound) + lowerBound;
     }else{
         return 0;
     }
@@ -69,7 +74,7 @@
 + (double) randomDoubleWithLowerBound:(double)lowerBound
                            upperBound:(double)upperBound {
     if (upperBound > lowerBound) {
-        return ((double)arc4random() / RANDOM_MAX) * (upperBound - lowerBound) + lowerBound;
+        return ((double)[self randomUInteger] / RANDOM_MAX) * (upperBound - lowerBound) + lowerBound;
     }else{
         return 0;
     }

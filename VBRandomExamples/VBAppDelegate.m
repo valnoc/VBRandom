@@ -20,6 +20,10 @@
 //    [self.window makeKeyAndVisible];
     
     for (NSInteger i = 0; i < 10; i++) {
+        NSLog(@"NSUInteger: %@", @([VBRandom randomUInteger]));
+    }
+    
+    for (NSInteger i = 0; i < 10; i++) {
         NSLog(@"NSInteger [%d; %d): %@", -i, i, @([VBRandom randomIntegerWithLowerBound:-i
                                                                              upperBound:i]));
     }

@@ -26,6 +26,9 @@
 
 @interface VBRandom : NSObject
 
+#pragma mark - random unsigned integer
++ (NSUInteger) randomUInteger;
+
 #pragma mark - random integer
 + (NSInteger) randomIntegerWithLowerBound:(NSInteger)lowerBound
                                upperBound:(NSInteger)upperBound;
