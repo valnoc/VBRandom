@@ -37,6 +37,10 @@
     NSLog(@"double [min, 0): %@", @([VBRandom randomDoubleNegative]));
     NSLog(@"double [min, 1): %@", @([VBRandom randomDoubleNonPositive]));
     
+    for (NSInteger i = 0; i < 10; i++) {
+        NSLog(@"BOOL: %@", [VBRandom randomBOOL] ? @"YES" : @"NO");
+    }
+    
     return YES;
 }
 

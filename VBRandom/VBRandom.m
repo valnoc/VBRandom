@@ -95,4 +95,9 @@
                                  upperBound:1];
 }
 
+#pragma mark - random BOOL
++ (BOOL) randomBOOL {
+    return [self randomIntegerWithLowerBound:0 upperBound:2] == 1 ? YES : NO;
+}
+
 @end

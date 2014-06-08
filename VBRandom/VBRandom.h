@@ -42,4 +42,7 @@
 + (double) randomDoubleNegative;
 + (double) randomDoubleNonPositive;
 
+#pragma mark - random BOOL
++ (BOOL) randomBOOL;
+
 @end
