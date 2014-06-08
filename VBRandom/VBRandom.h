@@ -34,4 +34,12 @@
 + (NSInteger) randomIntegerNegative;
 + (NSInteger) randomIntegerNonPositive;
 
+#pragma mark - random double
++ (double) randomDoubleWithLowerBound:(double)lowerBound
+                           upperBound:(double)upperBound;
++ (double) randomDoublePositive;
++ (double) randomDoubleNonNegative;
++ (double) randomDoubleNegative;
++ (double) randomDoubleNonPositive;
+
 @end

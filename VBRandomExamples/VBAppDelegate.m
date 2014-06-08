@@ -19,14 +19,23 @@
 //    self.window.backgroundColor = [UIColor whiteColor];
 //    [self.window makeKeyAndVisible];
     
-    for (NSInteger i = 1; i < 10; i++) {
-        NSLog(@"%@", @([VBRandom randomIntegerWithLowerBound:0
-                                                  upperBound:i]));
+    for (NSInteger i = 0; i < 10; i++) {
+        NSLog(@"NSInteger [%d; %d): %@", -i, i, @([VBRandom randomIntegerWithLowerBound:-i
+                                                                             upperBound:i]));
     }
-    NSLog(@"%@", @([VBRandom randomIntegerPositive]));
-    NSLog(@"%@", @([VBRandom randomIntegerNonNegative]));
-    NSLog(@"%@", @([VBRandom randomIntegerNegative]));
-    NSLog(@"%@", @([VBRandom randomIntegerNonPositive]));
+    NSLog(@"NSInteger [1, max): %@", @([VBRandom randomIntegerPositive]));
+    NSLog(@"NSInteger [0, max): %@", @([VBRandom randomIntegerNonNegative]));
+    NSLog(@"NSInteger [min, 0): %@", @([VBRandom randomIntegerNegative]));
+    NSLog(@"NSInteger [min, 1): %@", @([VBRandom randomIntegerNonPositive]));
+    
+    for (NSInteger i = 0; i < 10; i++) {
+        NSLog(@"double [%d; %d): %@", -i, i, @([VBRandom randomDoubleWithLowerBound:-i
+                                                                         upperBound:i]));
+    }
+    NSLog(@"double [1, max): %@", @([VBRandom randomDoublePositive]));
+    NSLog(@"double [0, max): %@", @([VBRandom randomDoubleNonNegative]));
+    NSLog(@"double [min, 0): %@", @([VBRandom randomDoubleNegative]));
+    NSLog(@"double [min, 1): %@", @([VBRandom randomDoubleNonPositive]));
     
     return YES;
 }
