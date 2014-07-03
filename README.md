@@ -12,4 +12,4 @@ It uses arc4random() function.
 4. random BOOL
 
 ## License
-VBMathParser is available under the MIT license. See the LICENSE file for more info.
+VBRandom is available under the MIT license. See the LICENSE file for more info.
