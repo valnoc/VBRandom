@@ -30,11 +30,16 @@
 + (NSUInteger) randomUInteger;
 
 #pragma mark - random integer
+//  [%d; %d)
 + (NSInteger) randomIntegerWithLowerBound:(NSInteger)lowerBound
                                upperBound:(NSInteger)upperBound;
+//  [1, max)
 + (NSInteger) randomIntegerPositive;
+//  [0, max)
 + (NSInteger) randomIntegerNonNegative;
+//  [min, 0)
 + (NSInteger) randomIntegerNegative;
+//  [min, 1)
 + (NSInteger) randomIntegerNonPositive;
 
 #pragma mark - random double
