@@ -24,22 +24,18 @@
     }
     
     for (NSInteger i = 0; i < 10; i++) {
-        NSLog(@"NSInteger [%d; %d): %@", -i, i, @([VBRandom randomIntegerWithLowerBound:-i
-                                                                             upperBound:i]));
+        NSLog(@"NSInteger [%ld; %ld): %@", -i, i, @([VBRandom randomIntegerIncludingLowerBound:-i
+                                                                         excludingUpperBound:i]));
     }
-    NSLog(@"NSInteger [1, max): %@", @([VBRandom randomIntegerPositive]));
-    NSLog(@"NSInteger [0, max): %@", @([VBRandom randomIntegerNonNegative]));
-    NSLog(@"NSInteger [min, 0): %@", @([VBRandom randomIntegerNegative]));
-    NSLog(@"NSInteger [min, 1): %@", @([VBRandom randomIntegerNonPositive]));
+    NSLog(@"NSInteger [0, 5): %@", @([VBRandom randomIntegerPositiveExcludingUpperBound:5]));
+    NSLog(@"NSInteger [-5, 0): %@", @([VBRandom randomIntegerNegativeIncludingLowerBound:-5]));
     
     for (NSInteger i = 0; i < 10; i++) {
-        NSLog(@"double [%d; %d): %@", -i, i, @([VBRandom randomDoubleWithLowerBound:-i
-                                                                         upperBound:i]));
+        NSLog(@"double [%ld; %ld): %@", -i, i, @([VBRandom randomDoubleIncludingLowerBound:-i
+                                                                       excludingUpperBound:i]));
     }
-    NSLog(@"double [1, max): %@", @([VBRandom randomDoublePositive]));
-    NSLog(@"double [0, max): %@", @([VBRandom randomDoubleNonNegative]));
-    NSLog(@"double [min, 0): %@", @([VBRandom randomDoubleNegative]));
-    NSLog(@"double [min, 1): %@", @([VBRandom randomDoubleNonPositive]));
+    NSLog(@"double [0, 5): %@", @([VBRandom randomDoublePositiveExcludingUpperBound:5]));
+    NSLog(@"double [-5, 0): %@", @([VBRandom randomDoubleNegativeIncludingLowerBound:-5]));
     
     for (NSInteger i = 0; i < 10; i++) {
         NSLog(@"BOOL: %@", [VBRandom randomBOOL] ? @"YES" : @"NO");

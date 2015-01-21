@@ -30,25 +30,16 @@
 + (NSUInteger) randomUInteger;
 
 #pragma mark - random integer
-//  [%d; %d)
-+ (NSInteger) randomIntegerWithLowerBound:(NSInteger)lowerBound
-                               upperBound:(NSInteger)upperBound;
-//  [1, max)
-+ (NSInteger) randomIntegerPositive;
-//  [0, max)
-+ (NSInteger) randomIntegerNonNegative;
-//  [min, 0)
-+ (NSInteger) randomIntegerNegative;
-//  [min, 1)
-+ (NSInteger) randomIntegerNonPositive;
++ (NSInteger) randomIntegerIncludingLowerBound:(NSInteger)lowerBound
+                           excludingUpperBound:(NSInteger)upperBound;
++ (NSInteger) randomIntegerNegativeIncludingLowerBound:(NSInteger)lowerBound;
++ (NSInteger) randomIntegerPositiveExcludingUpperBound:(NSInteger)upperBound;
 
 #pragma mark - random double
-+ (double) randomDoubleWithLowerBound:(double)lowerBound
-                           upperBound:(double)upperBound;
-+ (double) randomDoublePositive;
-+ (double) randomDoubleNonNegative;
-+ (double) randomDoubleNegative;
-+ (double) randomDoubleNonPositive;
++ (double) randomDoubleIncludingLowerBound:(double)lowerBound
+                       excludingUpperBound:(double)upperBound;
++ (double) randomDoubleNegativeIncludingLowerBound:(double)lowerBound;
++ (double) randomDoublePositiveExcludingUpperBound:(double)upperBound;
 
 #pragma mark - random BOOL
 + (BOOL) randomBOOL;

@@ -24,15 +24,6 @@
 
 #import "VBRandom.h"
 
-#define RANDOM_MAX  NSUIntegerMax
-#define RANDOM_MIN  -NSUIntegerMax
-
-#define RANDOM_INT_MAX  NSIntegerMax
-#define RANDOM_INT_MIN  NSIntegerMin
-
-#define RANDOM_DOUBLE_MAX   DBL_MAX
-#define RANDOM_DOUBLE_MIN   -DBL_MAX
-
 @implementation VBRandom
 
 #pragma mark - random unsigned integer
@@ -41,8 +32,8 @@
 }
 
 #pragma mark - random integer
-+ (NSInteger) randomIntegerWithLowerBound:(NSInteger)lowerBound
-                               upperBound:(NSInteger)upperBound {
++ (NSInteger) randomIntegerIncludingLowerBound:(NSInteger)lowerBound
+                           excludingUpperBound:(NSInteger)upperBound {
     if (upperBound > lowerBound) {
         return [self randomUInteger] % (upperBound - lowerBound) + lowerBound;
     }else{
@@ -50,59 +41,43 @@
     }
 }
 
-+ (NSInteger) randomIntegerPositive {
-    return [self randomIntegerWithLowerBound:1
-                                  upperBound:RANDOM_INT_MAX];
++ (NSInteger) randomIntegerNegativeIncludingLowerBound:(NSInteger)lowerBound {
+    return [self randomIntegerIncludingLowerBound:lowerBound
+                              excludingUpperBound:0];
 }
 
-+ (NSInteger) randomIntegerNonNegative {
-    return [self randomIntegerWithLowerBound:0
-                                  upperBound:RANDOM_INT_MAX];
-}
-
-+ (NSInteger) randomIntegerNegative {
-    return [self randomIntegerWithLowerBound:RANDOM_INT_MIN
-                                  upperBound:0];
-}
-
-+ (NSInteger) randomIntegerNonPositive {
-    return [self randomIntegerWithLowerBound:RANDOM_INT_MIN
-                                  upperBound:1];
++ (NSInteger) randomIntegerPositiveExcludingUpperBound:(NSInteger)upperBound {
+    return [self randomIntegerIncludingLowerBound:0
+                              excludingUpperBound:upperBound];
 }
 
 #pragma mark - random double
-+ (double) randomDoubleWithLowerBound:(double)lowerBound
-                           upperBound:(double)upperBound {
++ (double) randomDoubleIncludingLowerBound:(double)lowerBound
+                       excludingUpperBound:(double)upperBound {
     if (upperBound > lowerBound) {
-        return ((double)[self randomUInteger] / RANDOM_MAX) * (upperBound - lowerBound) + lowerBound;
+        double max = RAND_MAX;
+        double percentage = (double)[self randomIntegerIncludingLowerBound:0
+                                                       excludingUpperBound:max] / max;
+        return percentage * (upperBound - lowerBound) + lowerBound;
     }else{
         return 0;
     }
 }
 
-+ (double) randomDoublePositive {
-    return [self randomDoubleWithLowerBound:1
-                                 upperBound:RANDOM_DOUBLE_MAX];
++ (double) randomDoubleNegativeIncludingLowerBound:(double)lowerBound {
+    return [self randomDoubleIncludingLowerBound:lowerBound
+                             excludingUpperBound:0];
 }
 
-+ (double) randomDoubleNonNegative {
-    return [self randomDoubleWithLowerBound:0
-                                 upperBound:RANDOM_DOUBLE_MAX];
-}
-
-+ (double) randomDoubleNegative {
-    return [self randomDoubleWithLowerBound:RANDOM_DOUBLE_MIN
-                                 upperBound:0];
-}
-
-+ (double) randomDoubleNonPositive {
-    return [self randomDoubleWithLowerBound:RANDOM_DOUBLE_MIN
-                                 upperBound:1];
++ (double) randomDoublePositiveExcludingUpperBound:(double)upperBound {
+    return [self randomDoubleIncludingLowerBound:0
+                             excludingUpperBound:upperBound];
 }
 
 #pragma mark - random BOOL
 + (BOOL) randomBOOL {
-    return [self randomIntegerWithLowerBound:0 upperBound:2] == 1 ? YES : NO;
+    return [self randomIntegerIncludingLowerBound:0
+                              excludingUpperBound:2] == 1 ? YES : NO;
 }
 
 @end
