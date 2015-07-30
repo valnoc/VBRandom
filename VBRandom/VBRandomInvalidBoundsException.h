@@ -22,38 +22,8 @@
 //    SOFTWARE.
 //
 
-#import "VBRandom.h"
+#import "VBException.h"
 
-#import "VBRandomInvalidBoundsException.h"
-
-@implementation VBRandom
-
-+ (NSUInteger) uinteger {
-    return arc4random();
-}
-
-+ (NSInteger) integerFromIncluding:(NSInteger)lowerBound
-                       toExcluding:(NSInteger)upperBound {
-    if (upperBound <= lowerBound) {
-        @throw [VBRandomInvalidBoundsException exception];
-    }
-    return [self uinteger] % (upperBound - lowerBound) + lowerBound;
-}
-
-+ (double) doubleFromIncluding:(double)lowerBound
-                   toExcluding:(double)upperBound {
-    if (upperBound <= lowerBound) {
-        @throw [VBRandomInvalidBoundsException exception];
-    }
-    double max = RAND_MAX;
-    double percentage = (double)[self integerFromIncluding:0
-                                               toExcluding:max] / max;
-    return percentage * (upperBound - lowerBound) + lowerBound;
-}
-
-+ (BOOL) randomBOOL {
-    return [self integerFromIncluding:0
-                          toExcluding:2] == 1 ? YES : NO;
-}
+@interface VBRandomInvalidBoundsException : VBException
 
 @end

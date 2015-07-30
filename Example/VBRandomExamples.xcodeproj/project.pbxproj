@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		05C2A72ECEA06BBFA25EA546 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8799A6F40D65AF7DF23C1A36 /* libPods.a */; };
 		5B9E036B1B6AD01A00674B77 /* VBRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E036A1B6AD01A00674B77 /* VBRandom.m */; };
+		5B9E036E1B6AD2A600674B77 /* VBRandomInvalidBoundsException.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E036D1B6AD2A600674B77 /* VBRandomInvalidBoundsException.m */; };
 		5BF45C1119277AC7004EEFA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF45C1019277AC7004EEFA1 /* Foundation.framework */; };
 		5BF45C1319277AC7004EEFA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF45C1219277AC7004EEFA1 /* CoreGraphics.framework */; };
 		5BF45C1519277AC7004EEFA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF45C1419277AC7004EEFA1 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* Begin PBXFileReference section */
 		5B9E03691B6AD01A00674B77 /* VBRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBRandom.h; sourceTree = "<group>"; };
 		5B9E036A1B6AD01A00674B77 /* VBRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBRandom.m; sourceTree = "<group>"; };
+		5B9E036C1B6AD2A600674B77 /* VBRandomInvalidBoundsException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBRandomInvalidBoundsException.h; sourceTree = "<group>"; };
+		5B9E036D1B6AD2A600674B77 /* VBRandomInvalidBoundsException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBRandomInvalidBoundsException.m; sourceTree = "<group>"; };
 		5BF45C0D19277AC7004EEFA1 /* VBRandomExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VBRandomExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF45C1019277AC7004EEFA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5BF45C1219277AC7004EEFA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +99,8 @@
 			children = (
 				5B9E03691B6AD01A00674B77 /* VBRandom.h */,
 				5B9E036A1B6AD01A00674B77 /* VBRandom.m */,
+				5B9E036C1B6AD2A600674B77 /* VBRandomInvalidBoundsException.h */,
+				5B9E036D1B6AD2A600674B77 /* VBRandomInvalidBoundsException.m */,
 			);
 			name = VBRandom;
 			path = ../VBRandom;
@@ -307,6 +312,7 @@
 			files = (
 				5BF45C2119277AC7004EEFA1 /* VBAppDelegate.m in Sources */,
 				5BF45C1D19277AC7004EEFA1 /* main.m in Sources */,
+				5B9E036E1B6AD2A600674B77 /* VBRandomInvalidBoundsException.m in Sources */,
 				5B9E036B1B6AD01A00674B77 /* VBRandom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
