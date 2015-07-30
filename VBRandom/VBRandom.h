@@ -26,22 +26,6 @@
 
 @interface VBRandom : NSObject
 
-#pragma mark - random unsigned integer
-+ (NSUInteger) randomUInteger;
 
-#pragma mark - random integer
-+ (NSInteger) randomIntegerIncludingLowerBound:(NSInteger)lowerBound
-                           excludingUpperBound:(NSInteger)upperBound;
-+ (NSInteger) randomIntegerNegativeIncludingLowerBound:(NSInteger)lowerBound;
-+ (NSInteger) randomIntegerPositiveExcludingUpperBound:(NSInteger)upperBound;
-
-#pragma mark - random double
-+ (double) randomDoubleIncludingLowerBound:(double)lowerBound
-                       excludingUpperBound:(double)upperBound;
-+ (double) randomDoubleNegativeIncludingLowerBound:(double)lowerBound;
-+ (double) randomDoublePositiveExcludingUpperBound:(double)upperBound;
-
-#pragma mark - random BOOL
-+ (BOOL) randomBOOL;
 
 @end

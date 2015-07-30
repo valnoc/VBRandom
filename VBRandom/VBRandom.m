@@ -26,19 +26,18 @@
 
 @implementation VBRandom
 
-#pragma mark - random unsigned integer
-+ (NSUInteger) randomUInteger {
+#pragma mark - unsigned integer
++ (NSUInteger) uinteger {
     return arc4random();
 }
 
 #pragma mark - random integer
-+ (NSInteger) randomIntegerIncludingLowerBound:(NSInteger)lowerBound
-                           excludingUpperBound:(NSInteger)upperBound {
-    if (upperBound > lowerBound) {
-        return [self randomUInteger] % (upperBound - lowerBound) + lowerBound;
-    }else{
-        return 0;
++ (NSInteger) integerFromIncluding:(NSInteger)lowerBound
+                       toExcluding:(NSInteger)upperBound {
+    if (upperBound <= lowerBound) {
+
     }
+    return [self uinteger] % (upperBound - lowerBound) + lowerBound;
 }
 
 + (NSInteger) randomIntegerNegativeIncludingLowerBound:(NSInteger)lowerBound {
