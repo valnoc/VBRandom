@@ -10,16 +10,21 @@
 Pod::Spec.new do |s|
   s.name             = "VBRandom"
   s.version          = "1.0.0"
-  s.summary          = "VBVerticalScrollView limits scrolling to only vertical direction by resizing its contentView."
+  s.summary          = "VBRandom is a pseudo-random numbers generator. Using of VBRandom simplifies random numbers creation code."
   s.description      = <<-DESC
-VBVerticalScrollView limits scrolling to only vertical direction by resizing its contentView.
+VBRandom is a pseudo-random numbers generator. Using of VBRandom simplifies random numbers creation code.
 
-According to Apple docs when working with UIScrollView you should put all views into one contentView which will be added to scrollView itself.
+It uses arc4random() function.
 
-### Use case
+## Supported features
+1. random NSUInteger
+2. random NSInteger
+3. random double
+4. random BOOL
 
-1. Create view with information to be scrolled (do not forget to set constraints)
-2. verticalScrollView.contentView = myContentView;
+## License
+VBRandom is available under the MIT license. See the LICENSE file for more info.
+
                        DESC
   s.homepage         = "https://github.com/valnoc/VBRandom"
   s.license          = 'MIT'
