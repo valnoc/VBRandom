@@ -20,25 +20,21 @@
 //    [self.window makeKeyAndVisible];
     
     for (NSInteger i = 0; i < 10; i++) {
-        NSLog(@"NSUInteger: %@", @([VBRandom randomUInteger]));
+        NSLog(@"NSUInteger: %@", @([VBRandom uinteger]));
+    }
+    
+    for (NSInteger i = 1; i < 10; i++) {
+        NSLog(@"NSInteger [%ld; %ld): %@", -i, i, @([VBRandom integerWithLowerBound:-i
+                                                                         upperBound:i]));
+    }
+    
+    for (NSInteger i = 1; i < 10; i++) {
+        NSLog(@"double [%ld; %ld): %@", -i, i, @([VBRandom doubleWithLowerBound:-i
+                                                                     upperBound:i]));
     }
     
     for (NSInteger i = 0; i < 10; i++) {
-        NSLog(@"NSInteger [%ld; %ld): %@", -i, i, @([VBRandom randomIntegerIncludingLowerBound:-i
-                                                                         excludingUpperBound:i]));
-    }
-    NSLog(@"NSInteger [0, 5): %@", @([VBRandom randomIntegerPositiveExcludingUpperBound:5]));
-    NSLog(@"NSInteger [-5, 0): %@", @([VBRandom randomIntegerNegativeIncludingLowerBound:-5]));
-    
-    for (NSInteger i = 0; i < 10; i++) {
-        NSLog(@"double [%ld; %ld): %@", -i, i, @([VBRandom randomDoubleIncludingLowerBound:-i
-                                                                       excludingUpperBound:i]));
-    }
-    NSLog(@"double [0, 5): %@", @([VBRandom randomDoublePositiveExcludingUpperBound:5]));
-    NSLog(@"double [-5, 0): %@", @([VBRandom randomDoubleNegativeIncludingLowerBound:-5]));
-    
-    for (NSInteger i = 0; i < 10; i++) {
-        NSLog(@"BOOL: %@", [VBRandom randomBOOL] ? @"YES" : @"NO");
+        NSLog(@"BOOL: %@", [VBRandom boolYesNo] ? @"YES" : @"NO");
     }
     
     return YES;
