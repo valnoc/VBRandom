@@ -32,15 +32,40 @@
 /**
  *  Generate pseudo-random uinteger.
  *
- *  @return Random uinteger
+ *  @return Random NSUInteger
  */
 + (NSUInteger) uinteger;
 
+/**
+ *  Generate pseudo-random integer in range [lowerBound; upperBound).
+ *
+ *  @param lowerBound Include lower bound
+ *  @param upperBound Exlude upper bound
+ *
+ *  @return Random NSInteger
+ */
 + (NSInteger) integerWithLowerBound:(NSInteger)lowerBound
                          upperBound:(NSInteger)upperBound;
 
+/**
+ *  Generate pseudo-random double in range [lowerBound; upperBound).
+ *
+ *  @param lowerBound Include lower bound
+ *  @param upperBound Exlude upper bound
+ *
+ *  @return Random double
+ */
 + (double) doubleWithLowerBound:(double)lowerBound
                      upperBound:(double)upperBound;
+
+/**
+ *  Generate pseudo-random BOOL.
+ *
+ *  @param lowerBound Include lower bound
+ *  @param upperBound Exlude upper bound
+ *
+ *  @return Random BOOL
+ */
 + (BOOL) boolYesNo;
 
 @end
