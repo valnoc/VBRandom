@@ -25,7 +25,10 @@
 #import <Foundation/Foundation.h>
 
 /**
- *  VBRandom simplifies generating pseudo-random numbers. It uses arc4random() function.
+ *  VBRandom is a pseudo-random numbers generator. Using of VBRandom simplifies random numbers creation code.
+ *
+ *  It uses arc4random() function.
+ *
  */
 @interface VBRandom : NSObject
 
