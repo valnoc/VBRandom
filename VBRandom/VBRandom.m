@@ -32,28 +32,28 @@
     return arc4random();
 }
 
-+ (NSInteger) integerFromIncluding:(NSInteger)lowerBound
-                       toExcluding:(NSInteger)upperBound {
++ (NSInteger) integerWithLowerBound:(NSInteger)lowerBound
+                         upperBound:(NSInteger)upperBound {
     if (upperBound <= lowerBound) {
         @throw [VBRandomInvalidBoundsException exception];
     }
     return [self uinteger] % (upperBound - lowerBound) + lowerBound;
 }
 
-+ (double) doubleFromIncluding:(double)lowerBound
-                   toExcluding:(double)upperBound {
++ (double) doubleWithLowerBound:(double)lowerBound
+                     upperBound:(double)upperBound {
     if (upperBound <= lowerBound) {
         @throw [VBRandomInvalidBoundsException exception];
     }
     double max = RAND_MAX;
-    double percentage = (double)[self integerFromIncluding:0
-                                               toExcluding:max] / max;
+    double percentage = (double)[self integerWithLowerBound:0
+                                                 upperBound:max] / max;
     return percentage * (upperBound - lowerBound) + lowerBound;
 }
 
-+ (BOOL) randomBOOL {
-    return [self integerFromIncluding:0
-                          toExcluding:2] == 1 ? YES : NO;
++ (BOOL) boolYesNo {
+    return [self integerWithLowerBound:0
+                            upperBound:2] == 1 ? YES : NO;
 }
 
 @end

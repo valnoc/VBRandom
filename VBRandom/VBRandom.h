@@ -30,18 +30,17 @@
 @interface VBRandom : NSObject
 
 /**
- *  Generate pseudo-random uinteger
+ *  Generate pseudo-random uinteger.
  *
  *  @return Random uinteger
  */
 + (NSUInteger) uinteger;
 
-+ (NSInteger) integerFromIncluding:(NSInteger)lowerBound
-                       toExcluding:(NSInteger)upperBound;
++ (NSInteger) integerWithLowerBound:(NSInteger)lowerBound
+                         upperBound:(NSInteger)upperBound;
 
-+ (double) doubleFromIncluding:(double)lowerBound
-                   toExcluding:(double)upperBound;
-
-+ (BOOL) randomBOOL;
++ (double) doubleWithLowerBound:(double)lowerBound
+                     upperBound:(double)upperBound;
++ (BOOL) boolYesNo;
 
 @end
