@@ -7,282 +7,281 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71D57BBD43FB153CCACF1713 /* VBNotImplementedException.h in Headers */ = {isa = PBXBuildFile; fileRef = C803F80BC91338876AED26FA /* VBNotImplementedException.h */; };
-		87D79342D75F808369BB12E3 /* VBException.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C95E792EAE46CDC538CED9 /* VBException.m */; };
-		8BCDA4F3BA972A3E9CCED756 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40846CE4060AA3920418D4F9 /* Pods-dummy.m */; };
-		8EB8560D884B130F62C00F24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF32B3054B01B965D910375 /* Foundation.framework */; };
-		90BE923295769835F2EC1272 /* VBNotImplementedException.m in Sources */ = {isa = PBXBuildFile; fileRef = A156651C722341A11AC8BF00 /* VBNotImplementedException.m */; };
-		9374CDEBB4F9EBF2ABC12AB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF32B3054B01B965D910375 /* Foundation.framework */; };
-		A0037573D2241C0A781E1034 /* VBNilValueException.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A8E09918E0ABD80AFD66C2 /* VBNilValueException.h */; };
-		B28F07333D906515193BB316 /* VBException.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5E2FD27E21F4AEA4726577 /* VBException.h */; };
-		CB666F6F1C5885236846FB65 /* VBInvalidClassException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F40E15D18CCB9166960FA21 /* VBInvalidClassException.m */; };
-		E08193142FE78F3BFE7D146B /* VBInvalidClassException.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C047902BFC13AB1B5969AAA /* VBInvalidClassException.h */; };
-		EB59E145735B3C01E83D2AE2 /* Pods-VBException-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 502370EC37BE9291387FC65A /* Pods-VBException-dummy.m */; };
-		F4511BCD39CECB22F84C32E9 /* VBNilValueException.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4088F31052C103CCF41A33 /* VBNilValueException.m */; };
+		2B20832D95155917AD71F44322BB08EF /* VBNilValueException.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A6E45BAA430E615A9F548881AF76AC /* VBNilValueException.m */; };
+		4380C44E12B35EFEAF03E7420E9AAC92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DAED3C24975301DB78DCE37F45011E /* Foundation.framework */; };
+		740DFC5674185DCA5EF94357479BCD10 /* VBNotImplementedException.h in Headers */ = {isa = PBXBuildFile; fileRef = CB61A7575715A8DB1E9CC6E3444E036A /* VBNotImplementedException.h */; };
+		84644F31A815A0C96A5134A74C9050F9 /* VBInvalidClassException.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C44B8AFD9765855C1DE2774136D124 /* VBInvalidClassException.h */; };
+		8DD947BB561828EAF2FDC81F28C4DB77 /* VBException-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE291636ACD959C127A8AD806BEACC3 /* VBException-dummy.m */; };
+		AFB6BFD40BB2AD086850359856005EAE /* VBException.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4A983CCC780B47A6A311BA8C965D9D /* VBException.h */; };
+		AFF3D106C13751911CD1E697DA8590DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DAED3C24975301DB78DCE37F45011E /* Foundation.framework */; };
+		D259F7FFD413668939B9D9D6CEC8C57C /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C84B3D5785D6249BE72E7FAEF4582B4 /* Pods-dummy.m */; };
+		DC6431F94C3BF82F1B246150E1BAC2FE /* VBInvalidClassException.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0C205B3DFBB1D6C6288F9A64EA4955 /* VBInvalidClassException.m */; };
+		E19DB83A4B50D75F73B16F090812FCD9 /* VBNilValueException.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E4E61A541699F0F6AAEFF033DD6D3E /* VBNilValueException.h */; };
+		E4EC4B85A4325A6B5687D81C620D399B /* VBException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4544740A0C365F02518F8B088136F315 /* VBException.m */; };
+		F90711ADE9E570463B8987AD0147164B /* VBNotImplementedException.m in Sources */ = {isa = PBXBuildFile; fileRef = 9218CFD6C2E2D84AF52F9677CC4CF3BA /* VBNotImplementedException.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5F3541D4189F8A130F79118F /* PBXContainerItemProxy */ = {
+		4FF02F0BA5840FCCE9B431BC830367DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0783A7B85C4B6310BC4667FC /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2798026EA8CC4A6B69CE421D;
-			remoteInfo = "Pods-VBException";
+			remoteGlobalIDString = 936E5F203229E27B21FF89DD90B5B858;
+			remoteInfo = VBException;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D1A5BB36793688FC83FC19A /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		0FF32B3054B01B965D910375 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		10A8E09918E0ABD80AFD66C2 /* VBNilValueException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VBNilValueException.h; path = VBException/exceptions/VBNilValueException.h; sourceTree = "<group>"; };
-		40846CE4060AA3920418D4F9 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		409791D437884289D63A0002 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		502370EC37BE9291387FC65A /* Pods-VBException-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VBException-dummy.m"; sourceTree = "<group>"; };
-		69C95E792EAE46CDC538CED9 /* VBException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VBException.m; path = VBException/VBException.m; sourceTree = "<group>"; };
-		713A4B46B98E5D61B66B99DE /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		7C047902BFC13AB1B5969AAA /* VBInvalidClassException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VBInvalidClassException.h; path = VBException/exceptions/VBInvalidClassException.h; sourceTree = "<group>"; };
-		7F40E15D18CCB9166960FA21 /* VBInvalidClassException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VBInvalidClassException.m; path = VBException/exceptions/VBInvalidClassException.m; sourceTree = "<group>"; };
-		971EADE0C3F5C1D30CA1C20E /* Pods-VBException-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VBException-Private.xcconfig"; sourceTree = "<group>"; };
-		9A249D0F9E161B303F51E6EC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A156651C722341A11AC8BF00 /* VBNotImplementedException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VBNotImplementedException.m; path = VBException/exceptions/VBNotImplementedException.m; sourceTree = "<group>"; };
-		AB5E2FD27E21F4AEA4726577 /* VBException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VBException.h; path = VBException/VBException.h; sourceTree = "<group>"; };
-		B2B8463C6784B7D2D19CADB3 /* Pods-VBException.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VBException.xcconfig"; sourceTree = "<group>"; };
-		B49A25D84DC9511D8C3102AB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		C035B03FDEC568F6FB61A2C9 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C803F80BC91338876AED26FA /* VBNotImplementedException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VBNotImplementedException.h; path = VBException/exceptions/VBNotImplementedException.h; sourceTree = "<group>"; };
-		C8162A75CEE143414CA65D66 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD2CD7A5E28B9CE0BD92E537 /* libPods-VBException.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VBException.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF4088F31052C103CCF41A33 /* VBNilValueException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VBNilValueException.m; path = VBException/exceptions/VBNilValueException.m; sourceTree = "<group>"; };
-		FC4F1AC8AFCBC22993AEC9FA /* Pods-VBException-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VBException-prefix.pch"; sourceTree = "<group>"; };
-		FE26045286E002F1A1B2B7ED /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		03A6E45BAA430E615A9F548881AF76AC /* VBNilValueException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VBNilValueException.m; path = VBException/exceptions/VBNilValueException.m; sourceTree = "<group>"; };
+		133D9749F1A4F8B149FBB4D05B420B11 /* libVBException.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVBException.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17DAED3C24975301DB78DCE37F45011E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1C4A983CCC780B47A6A311BA8C965D9D /* VBException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VBException.h; path = VBException/VBException.h; sourceTree = "<group>"; };
+		1C84B3D5785D6249BE72E7FAEF4582B4 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		209DA5D2333629E18B07C6515AC8DCC8 /* VBException-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "VBException-Private.xcconfig"; sourceTree = "<group>"; };
+		3EE291636ACD959C127A8AD806BEACC3 /* VBException-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VBException-dummy.m"; sourceTree = "<group>"; };
+		4544740A0C365F02518F8B088136F315 /* VBException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VBException.m; path = VBException/VBException.m; sourceTree = "<group>"; };
+		49E4E61A541699F0F6AAEFF033DD6D3E /* VBNilValueException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VBNilValueException.h; path = VBException/exceptions/VBNilValueException.h; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		782BBBCFCA82416BB44355C8E0C65048 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		8BC564EA6985FD39244D5CB647DB39C6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9218CFD6C2E2D84AF52F9677CC4CF3BA /* VBNotImplementedException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VBNotImplementedException.m; path = VBException/exceptions/VBNotImplementedException.m; sourceTree = "<group>"; };
+		97C44B8AFD9765855C1DE2774136D124 /* VBInvalidClassException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VBInvalidClassException.h; path = VBException/exceptions/VBInvalidClassException.h; sourceTree = "<group>"; };
+		A680F8124E925161EF49E0FADC50EE95 /* VBException.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VBException.xcconfig; sourceTree = "<group>"; };
+		AE872957C5FD4BF4E6879CC57AACA9BE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF0C205B3DFBB1D6C6288F9A64EA4955 /* VBInvalidClassException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VBInvalidClassException.m; path = VBException/exceptions/VBInvalidClassException.m; sourceTree = "<group>"; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB61A7575715A8DB1E9CC6E3444E036A /* VBNotImplementedException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VBNotImplementedException.h; path = VBException/exceptions/VBNotImplementedException.h; sourceTree = "<group>"; };
+		FDC7FE38408812E3A77D5CD38923E633 /* VBException-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VBException-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0ECC22A76E1D5ED8F0DD4CF7 /* Frameworks */ = {
+		5E9E3A36053D008E4C6AA03D14E7EC91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EB8560D884B130F62C00F24 /* Foundation.framework in Frameworks */,
+				4380C44E12B35EFEAF03E7420E9AAC92 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		628E382E1D281049E5745C9F /* Frameworks */ = {
+		CB5D750D729037124AAE773358926F66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9374CDEBB4F9EBF2ABC12AB2 /* Foundation.framework in Frameworks */,
+				AFF3D106C13751911CD1E697DA8590DA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		067C70B540738D4836EAD9D2 = {
+		14E420C509CCD5AD8D67A9F59322D2D6 /* VBException */ = {
 			isa = PBXGroup;
 			children = (
-				9A249D0F9E161B303F51E6EC /* Podfile */,
-				9D12DC514BC060F1CD2F8686 /* Frameworks */,
-				6D09C76F44CE177378C02BB9 /* Pods */,
-				B0EBAFF746B14E2E60DF9BE5 /* Products */,
-				666345A42EFF5CEFED949D72 /* Targets Support Files */,
+				1C4A983CCC780B47A6A311BA8C965D9D /* VBException.h */,
+				4544740A0C365F02518F8B088136F315 /* VBException.m */,
+				97C44B8AFD9765855C1DE2774136D124 /* VBInvalidClassException.h */,
+				BF0C205B3DFBB1D6C6288F9A64EA4955 /* VBInvalidClassException.m */,
+				49E4E61A541699F0F6AAEFF033DD6D3E /* VBNilValueException.h */,
+				03A6E45BAA430E615A9F548881AF76AC /* VBNilValueException.m */,
+				CB61A7575715A8DB1E9CC6E3444E036A /* VBNotImplementedException.h */,
+				9218CFD6C2E2D84AF52F9677CC4CF3BA /* VBNotImplementedException.m */,
+				80A5940BB53EA9D65B7F3918BFACD727 /* Support Files */,
 			);
+			path = VBException;
 			sourceTree = "<group>";
 		};
-		2D3A8CC212C35128E4E13DFB /* Support Files */ = {
+		1D87A06DBCA9DCDCBBE70E3C2EB86DA5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B2B8463C6784B7D2D19CADB3 /* Pods-VBException.xcconfig */,
-				971EADE0C3F5C1D30CA1C20E /* Pods-VBException-Private.xcconfig */,
-				502370EC37BE9291387FC65A /* Pods-VBException-dummy.m */,
-				FC4F1AC8AFCBC22993AEC9FA /* Pods-VBException-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-VBException";
-			sourceTree = "<group>";
-		};
-		666345A42EFF5CEFED949D72 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BB647805BFA6B2D8C5BA7AA8 /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6D09C76F44CE177378C02BB9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C49DA7B9493FB9D36BE2F846 /* VBException */,
+				14E420C509CCD5AD8D67A9F59322D2D6 /* VBException */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		836186C0097952A92B09C92E /* iOS */ = {
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0FF32B3054B01B965D910375 /* Foundation.framework */,
+				17DAED3C24975301DB78DCE37F45011E /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9D12DC514BC060F1CD2F8686 /* Frameworks */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				836186C0097952A92B09C92E /* iOS */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1D87A06DBCA9DCDCBBE70E3C2EB86DA5 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
 			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B0EBAFF746B14E2E60DF9BE5 /* Products */ = {
+		80A5940BB53EA9D65B7F3918BFACD727 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C8162A75CEE143414CA65D66 /* libPods.a */,
-				CD2CD7A5E28B9CE0BD92E537 /* libPods-VBException.a */,
+				A680F8124E925161EF49E0FADC50EE95 /* VBException.xcconfig */,
+				209DA5D2333629E18B07C6515AC8DCC8 /* VBException-Private.xcconfig */,
+				3EE291636ACD959C127A8AD806BEACC3 /* VBException-dummy.m */,
+				FDC7FE38408812E3A77D5CD38923E633 /* VBException-prefix.pch */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/VBException";
 			sourceTree = "<group>";
 		};
-		BB647805BFA6B2D8C5BA7AA8 /* Pods */ = {
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C035B03FDEC568F6FB61A2C9 /* Pods-acknowledgements.markdown */,
-				FE26045286E002F1A1B2B7ED /* Pods-acknowledgements.plist */,
-				40846CE4060AA3920418D4F9 /* Pods-dummy.m */,
-				713A4B46B98E5D61B66B99DE /* Pods-environment.h */,
-				0D1A5BB36793688FC83FC19A /* Pods-resources.sh */,
-				B49A25D84DC9511D8C3102AB /* Pods.debug.xcconfig */,
-				409791D437884289D63A0002 /* Pods.release.xcconfig */,
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				1C84B3D5785D6249BE72E7FAEF4582B4 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				AE872957C5FD4BF4E6879CC57AACA9BE /* Pods.debug.xcconfig */,
+				782BBBCFCA82416BB44355C8E0C65048 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		C49DA7B9493FB9D36BE2F846 /* VBException */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB5E2FD27E21F4AEA4726577 /* VBException.h */,
-				69C95E792EAE46CDC538CED9 /* VBException.m */,
-				7C047902BFC13AB1B5969AAA /* VBInvalidClassException.h */,
-				7F40E15D18CCB9166960FA21 /* VBInvalidClassException.m */,
-				10A8E09918E0ABD80AFD66C2 /* VBNilValueException.h */,
-				CF4088F31052C103CCF41A33 /* VBNilValueException.m */,
-				C803F80BC91338876AED26FA /* VBNotImplementedException.h */,
-				A156651C722341A11AC8BF00 /* VBNotImplementedException.m */,
-				2D3A8CC212C35128E4E13DFB /* Support Files */,
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
 			);
-			path = VBException;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC564EA6985FD39244D5CB647DB39C6 /* libPods.a */,
+				133D9749F1A4F8B149FBB4D05B420B11 /* libVBException.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		81380C013263EDAD08D9D540 /* Headers */ = {
+		DD1082CBA3FD61202C957227B06DDBDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B28F07333D906515193BB316 /* VBException.h in Headers */,
-				E08193142FE78F3BFE7D146B /* VBInvalidClassException.h in Headers */,
-				A0037573D2241C0A781E1034 /* VBNilValueException.h in Headers */,
-				71D57BBD43FB153CCACF1713 /* VBNotImplementedException.h in Headers */,
+				AFB6BFD40BB2AD086850359856005EAE /* VBException.h in Headers */,
+				84644F31A815A0C96A5134A74C9050F9 /* VBInvalidClassException.h in Headers */,
+				E19DB83A4B50D75F73B16F090812FCD9 /* VBNilValueException.h in Headers */,
+				740DFC5674185DCA5EF94357479BCD10 /* VBNotImplementedException.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2798026EA8CC4A6B69CE421D /* Pods-VBException */ = {
+		936E5F203229E27B21FF89DD90B5B858 /* VBException */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9090ABEE2633EE1EC76F6426 /* Build configuration list for PBXNativeTarget "Pods-VBException" */;
+			buildConfigurationList = 645DA8EFEA6D53F542E93044866AEDA0 /* Build configuration list for PBXNativeTarget "VBException" */;
 			buildPhases = (
-				4873999F09803A14E62BB3ED /* Sources */,
-				628E382E1D281049E5745C9F /* Frameworks */,
-				81380C013263EDAD08D9D540 /* Headers */,
+				6504946FCD99407F28BF327482A54EC3 /* Sources */,
+				5E9E3A36053D008E4C6AA03D14E7EC91 /* Frameworks */,
+				DD1082CBA3FD61202C957227B06DDBDA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-VBException";
-			productName = "Pods-VBException";
-			productReference = CD2CD7A5E28B9CE0BD92E537 /* libPods-VBException.a */;
+			name = VBException;
+			productName = VBException;
+			productReference = 133D9749F1A4F8B149FBB4D05B420B11 /* libVBException.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		CB02409E7B02F18DC7F8DF8E /* Pods */ = {
+		DCB05D4E67A3F63B8E16EB822C36757D /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C5DCB9AA96D7D459DBF0915 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 205CF275806C1D3ACCAA262ADB7931AE /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				0619502864BC6C7232096511 /* Sources */,
-				0ECC22A76E1D5ED8F0DD4CF7 /* Frameworks */,
+				3230C72F7F678C6CEE31D921E3AD0617 /* Sources */,
+				CB5D750D729037124AAE773358926F66 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F4E3868041EACE0815481648 /* PBXTargetDependency */,
+				6B6F9243B61F79DE2CDD46D438F2BD42 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = C8162A75CEE143414CA65D66 /* libPods.a */;
+			productReference = 8BC564EA6985FD39244D5CB647DB39C6 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0783A7B85C4B6310BC4667FC /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 9EF539BC6C5FD8F317F24A34 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 067C70B540738D4836EAD9D2;
-			productRefGroup = B0EBAFF746B14E2E60DF9BE5 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB02409E7B02F18DC7F8DF8E /* Pods */,
-				2798026EA8CC4A6B69CE421D /* Pods-VBException */,
+				DCB05D4E67A3F63B8E16EB822C36757D /* Pods */,
+				936E5F203229E27B21FF89DD90B5B858 /* VBException */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0619502864BC6C7232096511 /* Sources */ = {
+		3230C72F7F678C6CEE31D921E3AD0617 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BCDA4F3BA972A3E9CCED756 /* Pods-dummy.m in Sources */,
+				D259F7FFD413668939B9D9D6CEC8C57C /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4873999F09803A14E62BB3ED /* Sources */ = {
+		6504946FCD99407F28BF327482A54EC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB59E145735B3C01E83D2AE2 /* Pods-VBException-dummy.m in Sources */,
-				87D79342D75F808369BB12E3 /* VBException.m in Sources */,
-				CB666F6F1C5885236846FB65 /* VBInvalidClassException.m in Sources */,
-				F4511BCD39CECB22F84C32E9 /* VBNilValueException.m in Sources */,
-				90BE923295769835F2EC1272 /* VBNotImplementedException.m in Sources */,
+				8DD947BB561828EAF2FDC81F28C4DB77 /* VBException-dummy.m in Sources */,
+				E4EC4B85A4325A6B5687D81C620D399B /* VBException.m in Sources */,
+				DC6431F94C3BF82F1B246150E1BAC2FE /* VBInvalidClassException.m in Sources */,
+				2B20832D95155917AD71F44322BB08EF /* VBNilValueException.m in Sources */,
+				F90711ADE9E570463B8987AD0147164B /* VBNotImplementedException.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F4E3868041EACE0815481648 /* PBXTargetDependency */ = {
+		6B6F9243B61F79DE2CDD46D438F2BD42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-VBException";
-			target = 2798026EA8CC4A6B69CE421D /* Pods-VBException */;
-			targetProxy = 5F3541D4189F8A130F79118F /* PBXContainerItemProxy */;
+			name = VBException;
+			target = 936E5F203229E27B21FF89DD90B5B858 /* VBException */;
+			targetProxy = 4FF02F0BA5840FCCE9B431BC830367DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		138FA4D9A17F34357E4FCABC /* Release */ = {
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,23 +315,7 @@
 			};
 			name = Release;
 		};
-		4DC9B2A43F12B4024092559A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 409791D437884289D63A0002 /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		5FFBFEB827D11CAD60C325BE /* Debug */ = {
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -371,28 +354,12 @@
 			};
 			name = Debug;
 		};
-		9C827E0026B676E294E7D171 /* Debug */ = {
+		27CE6E0D1A064F20DCE76F6C3F83EE69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 971EADE0C3F5C1D30CA1C20E /* Pods-VBException-Private.xcconfig */;
+			baseConfigurationReference = 209DA5D2333629E18B07C6515AC8DCC8 /* VBException-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-VBException/Pods-VBException-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D5A4824BF2AA9C899A19AC7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 971EADE0C3F5C1D30CA1C20E /* Pods-VBException-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-VBException/Pods-VBException-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/VBException/VBException-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -403,9 +370,25 @@
 			};
 			name = Release;
 		};
-		E39F7913381F1297DB92D422 /* Debug */ = {
+		300A8D033DBBEC39A8383967D26CEE05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B49A25D84DC9511D8C3102AB /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 209DA5D2333629E18B07C6515AC8DCC8 /* VBException-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VBException/VBException-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BD5D490BE78D2AD3E5D5BB0446B776AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE872957C5FD4BF4E6879CC57AACA9BE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -419,37 +402,53 @@
 			};
 			name = Debug;
 		};
+		E29CCCDA334CBBF71FD4292CB5978D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782BBBCFCA82416BB44355C8E0C65048 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C5DCB9AA96D7D459DBF0915 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		205CF275806C1D3ACCAA262ADB7931AE /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E39F7913381F1297DB92D422 /* Debug */,
-				4DC9B2A43F12B4024092559A /* Release */,
+				BD5D490BE78D2AD3E5D5BB0446B776AA /* Debug */,
+				E29CCCDA334CBBF71FD4292CB5978D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9090ABEE2633EE1EC76F6426 /* Build configuration list for PBXNativeTarget "Pods-VBException" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C827E0026B676E294E7D171 /* Debug */,
-				D5A4824BF2AA9C899A19AC7A /* Release */,
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EF539BC6C5FD8F317F24A34 /* Build configuration list for PBXProject "Pods" */ = {
+		645DA8EFEA6D53F542E93044866AEDA0 /* Build configuration list for PBXNativeTarget "VBException" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5FFBFEB827D11CAD60C325BE /* Debug */,
-				138FA4D9A17F34357E4FCABC /* Release */,
+				300A8D033DBBEC39A8383967D26CEE05 /* Debug */,
+				27CE6E0D1A064F20DCE76F6C3F83EE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0783A7B85C4B6310BC4667FC /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }
