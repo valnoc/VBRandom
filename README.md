@@ -1,5 +1,6 @@
 VBRandom
 ========
+[![](https://img.shields.io/cocoapods/v/VBRandom.svg)]()
 
 VBRandom is a pseudo-random numbers generator. Using of VBRandom simplifies random numbers creation code.
 
